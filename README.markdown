@@ -5,15 +5,15 @@ Simple package that wraps [libtidy](http://tidy.sourceforge.net/).
 ## Install Package
 GoTidy uses CGO to link to Libtidy. Libtidy must be a shared library. OSX Lion comes with Libtidy, but it is a static library which will cause all sorts of problems. See below about compiling Tidy as a shared library under OSX.
 
-	go get github.com/JalfResi/GoTidy
+	go get github.com/rniedosmialek/GoTidy
 
 And import into your program like so:
 
-	import "github.com/JalfResi/GoTidy"
+	import "github.com/rniedosmialek/GoTidy"
 
 ## Install Example Binary
 
-	go get github.com/JalfResi/GoTidy/gotidy
+	go get github.com/rniedosmialek/GoTidy/gotidy
 
 Example usage of example binary:
 
@@ -26,7 +26,7 @@ Example usage of example binary:
 	import (
 		"fmt"
 		"log"
-		"github.com/JalfResi/GoTidy"
+		"github.com/rniedosmialek/GoTidy"
 	)
 
 	func main() {
